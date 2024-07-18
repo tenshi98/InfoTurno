@@ -1,6 +1,5 @@
 # Infoturno
-## _Sistema de control de tiempo Viña Concha y Toro_
-
+### _Sistema de control de tiempo Viña Concha y Toro_
 Infoturno es un sistema que permite la toma de tiempos en las lineas de produccion de viña concha y toro, dividiendolos en tiempos de preparacion, produccion y tiempos muertos, los cuales a su vez tambien se subdividen.
 
 El sistema, en teoria, estaba pensado para poder obtener resultados mas eficientes en la produccion y atacar los mayores problemas que generaban atrasos en la programacion, separando los tiempos muertos en, por ejemplo, fallas operacionales, ajustes de las maquinas, averias mecanicas, averias electricas, fallas de material, etc.
@@ -15,7 +14,7 @@ Archivos que componen el sistema Infoturno:
 - Resumen Linea - General 6-4.xls
 - 5Minutos.xls
 
-## Los otros archivos
+### Los otros archivos
 
 Los otros archivos contenidos en el repositorio no tienen nada que ver, pero representan una herramienta con la cual se trabajaba en las plantas de produccion (a pesar de tener SAP).
 
@@ -26,10 +25,30 @@ Archivos listados:
 - INFO ROQUEFORT.xls : Archivo con el cual la empresa Roquefort le facturaba a Viña Concha y Toro.
 - Libro1.xlsx : Archivo con informacion de la base de datos itiempo, no recuerdo la finalidad de este.
 
-## Uso
-
+## Uso 🚀
 Infoturno requere de una conexion ODBC para funcionar, en la epoca en que era usado para configurar la conexion se accedia a traves del panel de control - herramientas administrativas - Origenes de datos ODBC, luego se creaba una nueva conexion, indicando que es una base de datos Access, la conexion debe tener el nombre de itiempo, ya que todos los informes y planillas consultaban por este nombre de conexion.
 
 Cabe destacar que dicha base de datos estaba en una unidad de red, la cual por norma estaba conectada al equipo como la unidad z.
 
 Cualquier uso de estos archivos esta permitido, favor no consultar en caso de algun problema ya que no le doy soporte.
+
+## Licencia 📄
+Este proyecto está bajo la Licencia GPL-3.0 license - ve el archivo [LICENSE](LICENSE) para detalles
+
+## Contacto 📖
+Puedes contactarte conmigo a traves de cualquier de los siguientes canales:
+- [Github](https://github.com/tenshi98)
+- [Linkedin](https://www.linkedin.com/in/victor-reyes-galvez/)
+- [Mi Web](https://web.digitalcreations.cl/)
+
+## Contribuciones 🎁
+Estamos agradecidos por las contribuciones de la comunidad a este proyecto. Si encontraste cualquier valor en este proyecto o quieres contribuir, aquí está lo que puedes hacer:
+
+- Comparte este proyecto con otros
+- Invítame un café ☕
+- Inicia un nuevo problema o contribuye con un PR
+- Muestra tu agradecimiento diciendo gracias en un nuevo problema.
+
+---
+
+⌨️ por [Victor Reyes](https://github.com/tenshi98) 😊
