@@ -14,13 +14,20 @@ Archivos que componen el sistema Infoturno:
 - Resumen Linea - General 6-4.xls
 - 5Minutos.xls
 
+Sus funciones son las siguientes:
+
+- Infoturno: Plantilla para hacer el ingreso de las detenciones de las lineas de produccion al interior de la planta, este archivo se conecta a una base de datos access a través del servicio de Origenes de bases de Datos (ODBC) del sistema operativo para obtener y guardar los datos.
+- Resumen: Informe de analisis gerencial con distintas vistas, donde muestra gráficos por tipo de detenciones, por tipos de cambios, producción por tipo de envase, etc. Este archivo se conecta a una base de datos access a través del servicio de Origenes de bases de Datos (ODBC) del sistema operativo para obtener los datos.
+- Resumen Linea: Informe de análisis gerencial, muestra los datos agrupados de distintas formas (tipos de tiempo, tipo de produccion, tipo de enevase, tipo de caja, etc) representado en valores y porcentajes. . Este archivo se conecta a una base de datos access a través del servicio de Origenes de bases de Datos (ODBC) del sistema operativo para obtener los datos.
+- Informe 5 Minutos: Informe que permite descargar la información en bruto generada por la plantilla Inforturno, para su posterior uso en la generación de tablas dinámicas y gráficos, este archivo se conecta a una base de datos access a través del servicio de Origenes de bases de Datos (ODBC) del sistema operativo para obtener los datos.
+
 ### Los otros archivos
 
 Los otros archivos contenidos en el repositorio no tienen nada que ver, pero representan una herramienta con la cual se trabajaba en las plantas de produccion (a pesar de tener SAP).
 
 Archivos listados:
 
-- Horas extras 2011 semana xx.xlsm : Archivo para cotejar las horas extras informadas con las horas extras de la plataforma de marcaje.
+- Horas extras 2011 semana xx.xlsm : Archivo para cotejar las horas extras informadas con las horas extras de la plataforma de marcaje, este archivo se conecta a una base de datos access a través del servicio de Origenes de bases de Datos (ODBC) del sistema operativo para obtener los datos.
 - Horas roquefort.xlsx : Archivo con el cual la empresa Roquefort informaba sus horas.
 - INFO ROQUEFORT.xls : Archivo con el cual la empresa Roquefort le facturaba a Viña Concha y Toro.
 - Libro1.xlsx : Archivo con informacion de la base de datos itiempo, no recuerdo la finalidad de este.
